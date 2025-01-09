@@ -1,0 +1,6 @@
+[submodule "alacritty/neofetch"]
+	path = alacritty/neofetch
+	url = it@github.com:DaVinc1J/configs.git
+[submodule "nvim/lazy/lazy.nvim"]
+	path = nvim/lazy/lazy.nvim
+	url = git@github.com:DaVinc1J/configs.git
