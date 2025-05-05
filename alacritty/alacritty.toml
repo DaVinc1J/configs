@@ -1,0 +1,45 @@
+[window]
+opacity = 0.8
+padding = {x = 0, y = 0}
+blur = false 
+
+[terminal.shell]
+program = "/bin/zsh"
+
+[font]
+size = 7 
+
+[keyboard]
+bindings = [
+{ key = "C", mods = "Control", action = "Copy" },
+{ key = "V", mods = "Control", action = "Paste" },
+]
+
+[cursor]
+style =	{ shape = "Underline", blinking = "On" }
+blink_timeout = 0
+unfocused_hollow = false
+blink_interval = 500
+
+[mouse]
+hide_when_typing = true
+
+[colors.normal]
+black   = "#1a1a1a"  # Very dark grey
+red     = "#333333"  # Dark grey
+green   = "#4d4d4d"  # Grey with a greenish tone
+yellow  = "#666666"  # Medium grey
+blue    = "#808080"  # Standard grey
+magenta = "#999999"  # Light grey
+cyan    = "#b3b3b3"  # Lighter grey
+white   = "#cccccc"  # Very light grey
+
+[colors.bright]
+black   = "#1a1a1a"  # Very dark grey (same as normal black)
+red     = "#4d4d4d"  # Grey with a redish tone
+green   = "#666666"  # Medium grey
+yellow  = "#808080"  # Standard grey
+blue    = "#999999"  # Light grey
+magenta = "#b3b3b3"  # Lighter grey
+cyan    = "#cccccc"  # Very light grey
+white   = "#ffffff"  # Pure white

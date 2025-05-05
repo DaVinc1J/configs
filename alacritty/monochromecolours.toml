@@ -1,0 +1,23 @@
+[colors.primary]
+background = "#090B0C"  # Black background
+foreground = "#D3D3D3"  # Light grey text
+
+[colors.normal]
+black   = "#1a1a1a"  # Very dark grey
+red     = "#333333"  # Dark grey
+green   = "#4d4d4d"  # Grey with a greenish tone
+yellow  = "#666666"  # Medium grey
+blue    = "#808080"  # Standard grey
+magenta = "#999999"  # Light grey
+cyan    = "#b3b3b3"  # Lighter grey
+white   = "#cccccc"  # Very light grey
+
+[colors.bright]
+black   = "#1a1a1a"  # Very dark grey (same as normal black)
+red     = "#4d4d4d"  # Grey with a redish tone
+green   = "#666666"  # Medium grey
+yellow  = "#808080"  # Standard grey
+blue    = "#999999"  # Light grey
+magenta = "#b3b3b3"  # Lighter grey
+cyan    = "#cccccc"  # Very light grey
+white   = "#ffffff"  # Pure white
